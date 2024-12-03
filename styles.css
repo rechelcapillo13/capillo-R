@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    font-family: Arial,sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    color: white;
+    
+}
+.search-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 15px;
+    width: 60%;
+    
+}
+.search-box{
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 1rem;
+    align-items: center;
+    margin-inline-start: 60%;
+}
+.search-button{
+    background: white;
+    border: none;
+    padding: 10px;
+    width: 60px;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    align-items: center;
+    margin-inline-start: auto;
+}
+.current-weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;           
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+}
+.temperature h1{
+    font-size: 3rem;
+}
+.temperature span{
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+p{
+    font-size: 20px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.details{
+    margin-left: 20px;
+    font-size: 1rem;
+}
+h3{
+    font-size: 15px;
+}
+.forecast{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    width: 120px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;  
+    margin: auto;  
+
+}
+.forecast .icon{
+    width: 50px;
+    height: 50px;
+}
+.day {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+.day .icon{
+    width: 30px;
+    height: 30px;
+}
+.adjusted-image{
+    width: 200px;
+    height: 200px;
+}
+.background{
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+footer{
+    background-color: lightpink;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+footer p{
+    margin: 0;
+    font-size:x-small;
+}
